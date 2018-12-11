@@ -1,5 +1,5 @@
 # BackgroundPy
-A tool for generating a runnable script, which runs a function and deletes itself after it is ran.
+A tool for generating a runnable script, which runs a python file and deletes itself after it is ran.
 
 ## Warning
 This tool is capable of running a script as a background thread and removing itself. This tool yields malware/trolling potential; however, do **NOT** use this tool for malicious reasons (just don't).
