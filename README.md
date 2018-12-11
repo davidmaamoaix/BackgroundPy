@@ -1,5 +1,5 @@
 # BackgroundPy
-A tool for generating a runnable script, which runs a python file and deletes itself after it is ran.
+A tool for generating a runnable script, which runs a python file and deletes itself after it is ran (basically it generates a runnable script that cleans up after itself).
 
 ## Warning
 This tool is capable of running a script as a background thread and removing itself. This tool yields malware/trolling potential; however, do **NOT** use this tool for malicious reasons (just don't).
@@ -31,7 +31,7 @@ Next, run the following command. Replace the path with the path of your file:
 python -m backgroundpy MyScript /path/to/the/file/thingy/u/just/created.py
 ```
 
-The above script creates a folder named *MyScript* (replace with a name of your choice), in which there is a script named *MyScript* that runs the given function and then deletes everything inside that folder.
+The above script creates a folder named *MyScript* (replace with a name of your choice), in which there is a script named *MyScript* that runs the given file and then deletes everything inside that folder. Airdrop the entire folder to other people for them to run.
 
 Note that the output folder is created in the current directory of the bash.
 
