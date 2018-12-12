@@ -1,4 +1,4 @@
-''' A tool for generating a runnable script, which runs a function and deletes itself after it is ran. '''
+''' A tool for generating a runnable script, which runs a python file and deletes itself after it is ran. '''
 
 
 __author__ = 'David Ma'
